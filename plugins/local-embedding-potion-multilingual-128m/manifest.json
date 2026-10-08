@@ -1,0 +1,29 @@
+{
+  "format": "athena-local-embedding-model",
+  "formatVersion": 1,
+  "modelId": "minishlab/potion-multilingual-128M",
+  "revision": "73908c3438cf03b6a01bcb9611d62b23d0726f08",
+  "dimension": 256,
+  "rows": 500353,
+  "dtype": "int8",
+  "normalize": true,
+  "maxInputTokens": 1024,
+  "files": {
+    "embeddings.int8": {
+      "bytes": 128090368,
+      "sha256": "6d2660cbf8357aa783445f3be112968369ce3b11ff7ea6a62f9fd0d3e29798e1"
+    },
+    "scales.f32": {
+      "bytes": 2001412,
+      "sha256": "bdc5c27a103942e27f83301af0e0f3dd0d1e6a7b1177aec9c13980227313ae67"
+    },
+    "tokenizer.json": {
+      "bytes": 18616131,
+      "sha256": "19f1909063da3cfe3bd83a782381f040dccea475f4816de11116444a73e1b6a1"
+    },
+    "tokenizer_config.json": {
+      "bytes": 47,
+      "sha256": "13863bba6df81dfe5d9a1e4596d1acc7a5c171790b1eb374d72bffae77983c49"
+    }
+  }
+}

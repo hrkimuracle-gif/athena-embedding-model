@@ -1,0 +1,13 @@
+{
+	"schemaVersion": 1,
+	"name": "local-embedding-potion-multilingual-128m",
+	"version": "1.0.0",
+	"description": "코드베이스 인덱싱용 로컬 임베딩 모델(potion-multilingual-128M, int8). 설치하면 임베딩 서버 없이 코드베이스 유형 '기본 (로컬 모델)'로 인덱싱할 수 있습니다. 모델 원본: minishlab/potion-multilingual-128M (Apache-2.0).",
+	"keywords": ["embedding", "local-model", "codebase-index"],
+	"interface": {
+		"displayName": "로컬 임베딩 모델 (potion-multilingual-128M)",
+		"shortDescription": "임베딩 서버 없이 코드베이스를 인덱싱하는 로컬 모델",
+		"developerName": "Uracle",
+		"category": "임베딩 모델"
+	}
+}

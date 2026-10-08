@@ -1,0 +1,12 @@
+{
+	"schemaVersion": 1,
+	"name": "athena-embedding-model",
+	"interface": { "displayName": "Athena 로컬 모델" },
+	"plugins": [
+		{
+			"name": "local-embedding-potion-multilingual-128m",
+			"source": { "source": "local", "path": "./plugins/local-embedding-potion-multilingual-128m" },
+			"category": "임베딩 모델"
+		}
+	]
+}
