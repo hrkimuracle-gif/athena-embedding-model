@@ -1,1 +1,4 @@
+# Model files are byte-exact (manifest.json lists size and sha256 of each one).
+# Never let git convert line endings, or Windows checkouts with core.autocrlf fail verification.
+plugins/** -text
 plugins/*/embeddings.int8 filter=lfs diff=lfs merge=lfs -text
