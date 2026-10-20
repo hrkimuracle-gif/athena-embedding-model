@@ -5,7 +5,7 @@
 	"plugins": [
 		{
 			"name": "local-embedding-potion-multilingual-128m",
-			"source": { "source": "local", "path": "./plugins/local-embedding-potion-multilingual-128m" },
+			"source": { "source": "local", "path": "./packages/local-embedding-potion-multilingual-128m" },
 			"category": "임베딩 모델"
 		}
 	]

@@ -21,7 +21,7 @@ Athena Code 는 모델을 다음 순서로 찾습니다: 확장에 동봉된 모
 
 ```
 marketplace.json                                      마켓플레이스 정의
-plugins/local-embedding-potion-multilingual-128m/
+packages/local-embedding-potion-multilingual-128m/
   .athena-plugin/plugin.json                          플러그인 정의 (이름, 버전, 설명)
   manifest.json                                       모델 파일 목록과 sha256 (Athena Code 가 로드 시 검증)
   embeddings.int8                                     단어 조각 벡터표 (int8, Git LFS)
@@ -34,7 +34,7 @@ plugins/local-embedding-potion-multilingual-128m/
 
 ## 모델 갱신
 
-1. `plugins/<이름>/` 의 파일을 새 변환본으로 바꿉니다. 변환은 athena-code 의 `src/scripts/convert-local-embedding-model.mjs` 로 합니다.
+1. `packages/<이름>/` 의 파일을 새 변환본으로 바꿉니다. 변환은 athena-code 의 `src/scripts/convert-local-embedding-model.mjs` 로 합니다.
 2. `.athena-plugin/plugin.json` 의 `version` 을 올립니다.
 3. 커밋하고 푸시하면 마켓플레이스에서 새 버전으로 보입니다.
 
